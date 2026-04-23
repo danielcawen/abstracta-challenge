@@ -1,0 +1,27 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "playwright + cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test:cucumber": "cucumber-js",
+    "test:staging:firefox": "NODE_ENV=staging BROWSER=firefox cucumber-js",
+    "test:prod:chromium": "NODE_ENV=prod BROWSER=chromium cucumber-js",
+    "test:headed": "HEADED=true cucumber-js",
+    "test:staging:firefox:headed": "NODE_ENV=staging BROWSER=firefox HEADED=true cucumber-js",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "@faker-js/faker": "^10.4.0",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "dotenv": "^17.4.1",
+    "playwright": "^1.59.1",
+    "prettier": "^3.8.3"
+  }
+}

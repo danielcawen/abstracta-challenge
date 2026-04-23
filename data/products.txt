@@ -1,0 +1,63 @@
+Product Catalog
+===============
+Total products: 15
+
+ 1. Samsung galaxy s6
+    Price: 360
+    Link:  prod.html?idp_=1
+
+ 2. Nokia lumia 1520
+    Price: 820
+    Link:  prod.html?idp_=2
+
+ 3. Nexus 6
+    Price: 650
+    Link:  prod.html?idp_=3
+
+ 4. Samsung galaxy s7
+    Price: 800
+    Link:  prod.html?idp_=4
+
+ 5. Iphone 6 32gb
+    Price: 790
+    Link:  prod.html?idp_=5
+
+ 6. Sony xperia z5
+    Price: 320
+    Link:  prod.html?idp_=6
+
+ 7. HTC One M9
+    Price: 700
+    Link:  prod.html?idp_=7
+
+ 8. Sony vaio i5
+    Price: 790
+    Link:  prod.html?idp_=8
+
+ 9. Sony vaio i7
+    Price: 790
+    Link:  prod.html?idp_=9
+
+10. Apple monitor 24
+    Price: 400
+    Link:  prod.html?idp_=10
+
+11. MacBook air
+    Price: 700
+    Link:  prod.html?idp_=11
+
+12. Dell i7 8gb
+    Price: 700
+    Link:  prod.html?idp_=12
+
+13. 2017 Dell 15.6 Inch
+    Price: 700
+    Link:  prod.html?idp_=13
+
+14. ASUS Full HD
+    Price: 230
+    Link:  prod.html?idp_=14
+
+15. MacBook Pro
+    Price: 1100
+    Link:  prod.html?idp_=15
