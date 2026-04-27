@@ -1,6 +1,8 @@
 import { writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { Client } from 'pg';
+import { dbConfig } from '../../config';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_OUTPUT_PATH = join(__dirname, '../../data/products.json');
@@ -94,4 +96,16 @@ export async function isElementClickable(page, locator) {
   } catch (e) {
     return false;
   }
+}
+
+export async function verifyProducts(aProduct) {
+  const { name, price, link } = aProduct;
+  const client = new Client(dbConfig);
+  await client.connect();
+  const result = await client.query(
+    `SELECT * FROM products WHERE name = $1 AND price = $2 AND link = $3`,
+    [name, price, link]
+  );
+  await client.end();
+  return result.rows;
 }
